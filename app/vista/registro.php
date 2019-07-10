@@ -50,7 +50,7 @@
                   <i class="fa fa-user"></i>
                 </div>
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Usuario">
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Nombre">
             </div>
 
             <div class="input-group mb-2 mr-sm-2">
@@ -61,7 +61,7 @@
                   
                 </div>
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Contraseña">
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Apellido">
             </div>
 
             <div class="input-group mb-2 mr-sm-2">
@@ -79,6 +79,8 @@
             
             
             <input class="btn btn-info" name="enviar" type="submit" value="Registrarse" />
+            <input class="btn btn-info" name="enviar" type="submit" value="Iniciar sesion" />
+
           </div>
         </div>
       </form>

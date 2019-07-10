@@ -8,14 +8,17 @@
 
         if($nombre==""){
             echo "<script>window.location = './../vista/registro.php?respuesta=MAL&mensaje=Falta%20Registrar%20El%20Nombre'</script>";
+            return;
         }
 
         if($apellido=""){
             echo "<script>window.location = './../vista/registro.php?respuesta=MAL&mensaje=Falta%20Registrar%20El%20Apellido'</script>";
+            return;
         }
 
         if($email=""){
             echo "<script>window.location = './../vista/registro.php?respuesta=MAL&mensaje=Falta%20Registrar%20El%20Email'</script>";
+            return;
         }
 
         $controlador = new RegistroNuevoUsuario();
