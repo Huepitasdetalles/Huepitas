@@ -16,16 +16,22 @@
   }
   .container{
     text-align: center;
+    
   }
 
   .login-box{
-    height: 400px;
+    margin-top: 100px;
+    height: 300px;
     width: 300px;
     display: inline-block;
-    background-color: white;
+    background: linear-gradient(0deg, pink, purple, pink);
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 11px 15px -7px;
+  }
+
+  img{
+    margin-top: -100px;
   }
   </style>
 
@@ -36,7 +42,7 @@
     <div class="login-box">
       <form action="../controlador/registro.php" method="POST">
         <div class="">
-          <h3>HUEPITAS</h3>
+          <img src="../../img/bg-img/logo1.png" alt="Logo de la empresa" class="img img-circle">
         </div>
         <div class="body-box">
           <div class="container">
@@ -79,7 +85,7 @@
             
             
             <input class="btn btn-info" name="enviar" type="submit" value="Registrarse" />
-            <input class="btn btn-info" name="enviar" type="submit" value="Iniciar sesion" />
+            <a href="iniciarseccion.php"><input class="btn btn-info" name="enviar" type="button" value="Iniciar sesion" /></a>
 
           </div>
         </div>

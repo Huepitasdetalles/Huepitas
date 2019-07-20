@@ -9,7 +9,7 @@
 
   <style>
   body{
-    background: url('../../img/bg-img/.jpg');
+    background: url('../../img/bg-img/local2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-clip: inherit;
@@ -20,10 +20,11 @@
   }
 
   .login-box{
-    height: 400px;
+    margin-top 100px;
+    width: 300px;
     width: 300px;
     display: inline-block;
-    background-color: white;
+    background: linear-gradient(0deg, pink, purple, pink);
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 11px 15px -7px;
@@ -33,19 +34,20 @@
 </head>
  
 <body>
+  <br>
+  <br>
+  <br>
   <div class="container">
     <div class="login-box">
       <form action="../controlador/registro.php" method="POST">
         <div class="">
-          <h3>HUEPITAS</h3>
+        <img src="../../img/bg-img/logo1.png" alt="Logo de la empresa" class="img img-circle">
         </div>
         <div class="body-box">
           <div class="container">
             <div class="form-group">
-   
-            </div>
-            
-            <div class="input-group mb-2 mr-sm-2">
+
+            <div class="input-group mb-2 mr-sm-2 ">
               <div class="input-group-prepend">
                 <div class="input-group-text">
                   <i class="fa fa-user"></i>
