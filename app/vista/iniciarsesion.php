@@ -39,7 +39,7 @@
   <br>
   <div class="container">
     <div class="login-box">
-      <form action="../controlador/registro.php" method="POST">
+      <form action="../modelo/iniciarsesion.php" method="POST">
         <div class="">
         <img src="../../img/bg-img/logo1.png" alt="Logo de la empresa" class="img img-circle">
         </div>
@@ -53,7 +53,7 @@
                   <i class="fa fa-user"></i>
                 </div>
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Usuario">
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Usuario" name="usuario" id="usuario">
             </div>
 
             <div class="input-group mb-2 mr-sm-2">
@@ -64,7 +64,7 @@
                   
                 </div>
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Contraseña">
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Contraseña" name="contrasena" id="contrasena">
             </div>
 
             
