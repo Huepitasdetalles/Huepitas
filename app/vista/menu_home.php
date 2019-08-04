@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="home.php">
       <img src="../../img/bg-img/logo1.png" alt="Logo de la empresa" width="50px">
   </a>
@@ -16,8 +16,17 @@
           Productos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Agregar</a>
-          <a class="dropdown-item" href="#">Listar Productos</a>
+          <a class="dropdown-item" href="agregar_productos.php">Agregar</a>
+          <a class="dropdown-item" href="productos_lista.php">Listar Productos</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Inventario
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="agregar_productos.php">Verificar</a>
+          <a class="dropdown-item" href="productos_lista.php">Actualizar</a>
         </div>
       </li>
       

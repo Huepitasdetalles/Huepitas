@@ -9,7 +9,7 @@
 
   <style>
   body{
-    background: url('../../img/bg-img/local2.jpg');
+    background: url('../../img/bg-img/local-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-clip: inherit;
@@ -20,13 +20,13 @@
   }
 
   .login-box{
-    margin-top 100px;
-    width: 300px;
-    width: 300px;
+    margin-top 300px;
+    width: 500px;
+    width: 500px;
     display: inline-block;
-    background: linear-gradient(0deg, pink, purple, pink);
+    background: linear-gradient(0deg, blue, red, blue);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0px 11px 15px -7px;
   }
   </style>
@@ -73,7 +73,6 @@
             <input class="btn btn-info" name="enviar" type="submit" value="Iniciar Sección" />
             
             
-            <a class="btn btn-warning" href="registro.php">Registrarse</a>
           </div>
         </div>
       </form>

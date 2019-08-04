@@ -12,13 +12,13 @@
         die();
     }
 
-    /*$codigodelproducto = $_POST["codigo"];
+    $codigodelproducto = $_POST["codigo"];
     $nombredelproducto = $_POST["nombre"];
-    $valordelproducto = $_POST["valor"];*/
+    $valordelproducto = $_POST["valor"];
 
     $result = $conection->query("INSERT INTO producto(`codigodelproducto`, `nombredelproducto`, `valorunitario`) VALUES (01,'pelucheoso',35000.00)");
-    /*var_dump($result);
-    die();*/
+    var_dump($result);
+    die();
     if($result){
         echo "<script>
             alert('Registro almacenado con éxito');
