@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>CRUD PHP</title>
+
+    <!--ESTILOS CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!--ESTILOS CSS ICONOS FONTAWESOME-->
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+
+<head>
+<body>
+
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card-header">
+                <h3>Gestionar Personas </h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="listadeproductos">Lista de Productos:</label>
+                        <input type="text" name="listadeproductos" id="listadeproductos" placeholder="Lista de Productos" class="form-control" autofocus>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cantidadactual">Cantidad de productos actuales:</label>
+                        <input type="number" name="cantidadactual" id="cantidadactual" placeholder="Por favor ingrese la cantidad de productos actuales" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <label for="cantidaddesalida">Cantidad de productos de salida :</label>
+                         <input type="number" name="cantidaddesalida" id="fechanamcimiento" placeholder="Por favor ingrese la cantidad de productos salidos" class="form-control" >
+                    </div>
+                        <div class="col-md-6">
+                        <label for="cantidaddeentrada">Cantidad de productos de entrada:</label>
+                        <input type="number" name="cantidaddeentrada" id="cantidaddeentrada" placeholder="Por favor ingrese la cantidad de productos entrados" class="form-control">
+                    </div>
+                </div>
+             </div>
+             <div class="card-footer">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Lista de Productos</th>
+                            <th>Cantidad de productos actuales</th>
+                            <th>Cantidad de productos de salida</th>
+                            <th>Cantidad de productos de entrada</th>
+                        </tr>
+                    </thead>
+                    <tbody id="datos">
+
+                    </tbody>
+                </table>
+             </div>
+        </div>
+
+
+    </div>
+    
+
+
+</body>
+    <!--JAVASCRIPT-->
+    <script src="../assets/js/all.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+</head>
