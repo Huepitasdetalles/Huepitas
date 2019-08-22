@@ -20,8 +20,7 @@
 <?php
     include 'menu_home.php';
 
-    $conection = mysqli_connect("localhost", "root", '', "huepitas");
-    $registros = $conection->query("SELECT * FROM producto");
+   
 
     
 
@@ -47,11 +46,7 @@
                             </tr>
                         </thead>
                         <tbody id="tabla">
-                            <?php
-                                while($row = mysqli_fetch_object($registros)){
-        
-                                }
-                            ?>
+                           
                         </tbody>
                     </table>
                 </div>
