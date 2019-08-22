@@ -1,6 +1,6 @@
 <?php
 
-    require'../modelo/inventario.modelo.php';
+    require dirname(__DIR__, 3) . '/modelo/inventario.modelo.php';
 
     if($_POST){
         $inventario = new Inventario();
